@@ -167,8 +167,8 @@ export default function IconMarquee() {
       </Marquee>
       <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-white dark:from-background"></div>
       <div className="pointer-events-none absolute inset-y-0 right-0 w-1/3 bg-gradient-to-l from-white dark:from-background"></div>
-      <div className="absolute inset-x-0 bottom-0 h-full bg-gradient-to-b from-transparent to-background to-70% dark:to-background"></div>
-      <div className="absolute z-10">
+      <div className="absolute inset-x-0 bottom-0 h-full bg-gradient-to-b from-transparent to-background to-85% dark:to-background"></div>
+      <div className="absolute bottom-10 z-10">
         <div className="mx-auto size-24 rounded-[2rem] border bg-white/10 p-3 shadow-2xl backdrop-blur-md dark:bg-black/10 lg:size-32">
           <svg
             xmlns="http://www.w3.org/2000/svg"
