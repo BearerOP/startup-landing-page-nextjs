@@ -1,5 +1,6 @@
 import BgGradient from "@/components/bg-gradient";
 import Hero from "@/components/hero";
+import Pricing from "@/components/pricing";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
         <Hero />
         <BgGradient/>
       </main>
+      <Pricing />
     </div>
   );
 }
