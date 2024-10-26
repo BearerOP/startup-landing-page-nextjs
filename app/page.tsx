@@ -1,4 +1,5 @@
 import BgGradient from "@/components/bg-gradient";
+import Cta from "@/components/cta";
 import Hero from "@/components/hero";
 import Pricing from "@/components/pricing";
 
@@ -10,6 +11,7 @@ export default function Home() {
         <BgGradient/>
       </main>
       <Pricing />
+      <Cta/>
     </div>
   );
 }

@@ -64,7 +64,13 @@ const config: Config = {
   		animation: {
   			'shiny-text': 'shiny-text 8s infinite',
   			'border-beam': 'border-beam calc(var(--duration)*1s) infinite linear',
-  			rainbow: 'rainbow var(--speed, 2s) infinite linear'
+  			rainbow: 'rainbow var(--speed, 2s) infinite linear',
+  			'marquee-25': 'marquee 25s linear infinite',
+  			'marquee-20': 'marquee 20s linear infinite',
+  			'marquee-30': 'marquee 30s linear infinite',
+  			'marquee-35': 'marquee 35s linear infinite',
+  			marquee: 'marquee var(--duration) infinite linear',
+  			'marquee-vertical': 'marquee-vertical var(--duration) linear infinite'
   		},
   		keyframes: {
   			'shiny-text': {
@@ -86,6 +92,28 @@ const config: Config = {
   				},
   				'100%': {
   					'background-position': '200%'
+  				}
+  			},
+  			marquee: {
+  				'0%': {
+  					transform: 'translateX(0%)'
+  				},
+  				'100%': {
+  					transform: 'translateX(-50%)'
+  				},
+  				from: {
+  					transform: 'translateX(0)'
+  				},
+  				to: {
+  					transform: 'translateX(calc(-100% - var(--gap)))'
+  				}
+  			},
+  			'marquee-vertical': {
+  				from: {
+  					transform: 'translateY(0)'
+  				},
+  				to: {
+  					transform: 'translateY(calc(-100% - var(--gap)))'
   				}
   			}
   		}
