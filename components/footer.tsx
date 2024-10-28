@@ -1,4 +1,5 @@
 import { DiscordLogoIcon, TwitterLogoIcon } from "@radix-ui/react-icons";
+import Image from "next/image";
 
 function Footer() {
   return (
@@ -8,9 +9,12 @@ function Footer() {
           <div className="md:flex md:justify-between px-8 p-4 py-16 sm:pb-16 gap-4">
             <div className="mb-12 flex-col flex gap-4">
               <a className="flex items-center gap-2" href="/">
-                <img
+                <Image
                   src="https://magicui.design/icon.png"
                   className="h-8 w-8 text-primary"
+                  alt="ChatCollect Logo"
+                  width={32}
+                  height={32}
                 />
                 <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
                   Magic UI
