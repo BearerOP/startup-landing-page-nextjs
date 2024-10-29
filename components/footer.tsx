@@ -20,7 +20,7 @@ function Footer() {
                   Magic UI
                 </span>
               </a>
-              <p className="max-w-xs">UI Library for Design Engineers</p>
+              <p className="max-w-xs">UI Library for Design Engineer</p>
             </div>
             <div className="grid grid-cols-1 gap-8 sm:gap-10 sm:grid-cols-3">
               <div>
